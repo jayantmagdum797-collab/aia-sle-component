@@ -1,188 +1,98 @@
-# Contribution Log
+# AI Contribution Log
 
+**Course:** 02UAML204 - Introduction to Artificial Intelligence
 
-This document records contributions made with assistance from the GitHub Copilot software engineering agent.
+**Project:** Simple AI Chatbot
 
-## Contribution #1
+**AI Tool Used:** GitHub Copilot Chat
 
-### Session Information
+---
 
-| Field      | Value                                     |
-| ---------- | ----------------------------------------- |
-| Agent      | GitHub Copilot Software Engineering Agent |
-| Repository | `my-company/my-app`                       |
-| Issue      | `#142`                                    |
-| Date       | 2026-08-11                                |
-| Status     | Ready for Review                          |
+## Step 1
 
-## Task
+### Prompt Given to Copilot
 
-Fix GitHub issue **#142**.
-
-### Agent Instructions
-
-```text
-First inspect the issue and repository.
-Find the root cause.
-Implement the fix.
-Run the tests.
-Then prepare a pull request.
+```
+Create a Python function named chatbot_response(user_input) that responds to:
+- hello
+- how are you
+- bye
+Use only standard Python.
 ```
 
-## Work Performed
+### AI Contribution
 
-### Issue Analysis
+- Generated the `chatbot_response()` function.
+- Added `if-elif-else` conditions.
+- Suggested response messages.
 
-* Read GitHub issue #142
-* Identified the expected behavior
-* Identified potentially affected components
+### My Contribution
 
-### Repository Analysis
+- Reviewed the generated code.
+- Understood each condition.
+- Accepted the code after checking it.
 
-* Inspected the repository
-* Reviewed relevant source files
-* Reviewed existing tests
-* Identified the affected code
+---
 
-### Implementation
+## Step 2
 
-* Identified the root cause
-* Implemented the requested fix
-* Added or updated tests
-* Avoided unrelated changes
+### Prompt Given to Copilot
 
-### Testing
-
-```text
-Tests: PASS
-Lint: PASS
-Build: PASS
+```
+Generate the main program that repeatedly asks the user for input, calls chatbot_response(), prints the response, and exits when the user types "bye". Use only standard Python.
 ```
 
-Replace the results above with the actual results from the project.
+### AI Contribution
 
-### Code Review
+- Generated the `main()` function.
+- Added the `while True` loop.
+- Added user input and print statements.
 
-The agent reviewed:
+### My Contribution
 
-* Git diff
-* Changed files
-* Test changes
-* Potential regressions
-* Unrelated modifications
+- Tested the program.
+- Added
 
-## Files Changed
-
-```text
-src/<affected-file>.ts
-tests/<affected-file>.test.ts
+```python
+if __name__ == "__main__":
+    main()
 ```
 
-Replace these with the actual files changed.
+to execute the chatbot.
+- Verified that the chatbot exits correctly when the user types "bye".
 
-## Git Information
+---
 
-```text
-Branch:
-agent/fix-issue-142
+## Step 3
 
-Commit:
-fix: resolve issue #142
+### Prompt Given to Copilot
 
-Pull Request:
-#<PR_NUMBER>
+```
+Improve the chatbot responses to make them more user-friendly.
 ```
 
-## Contribution Summary
+### AI Contribution
 
-```text
-Issue #142 was investigated by the AI software engineering agent.
+- Suggested more conversational responses.
 
-The agent:
-1. Analyzed the issue.
-2. Inspected the repository.
-3. Found the root cause.
-4. Implemented the fix.
-5. Added or updated tests.
-6. Ran the test suite.
-7. Reviewed the changes.
-8. Prepared a pull request.
-```
+### My Contribution
 
-## Validation
+- Reviewed the suggestions.
+- Kept the responses that matched the project requirements.
 
-| Check       | Result |
-| ----------- | ------ |
-| Tests       | PASS   |
-| Lint        | PASS   |
-| Build       | PASS   |
-| Diff Review | PASS   |
+## Step 4
 
-## Pull Request
+- Initialized a Git repository using Git.
+- Checked the repository status.
+- Added 'agent.py' and 'CONTRIBUTION_LOG.md'.
 
-```text
-PR Number: #<PR_NUMBER>
-PR Title: <pull-request-title>
-PR URL: <pull-request-url>
-Status: OPEN
-```
+## Step 5
 
-## Human Review
+- Created the Initial Git commit.
+- Used a meaningful comit messsage.
 
-AI-generated changes must be reviewed by a human contributor before merging.
+## Step 6
 
-```text
-Reviewer:
-<reviewer-name>
-
-Review Status:
-PENDING
-
-Review Date:
-<review-date>
-```
-
-## AI Contribution Policy
-
-The AI agent assists with:
-
-* Issue analysis
-* Code investigation
-* Implementation
-* Testing
-* Documentation
-* Pull-request preparation
-
-Human maintainers remain responsible for:
-
-* Reviewing the generated code
-* Verifying correctness
-* Checking security implications
-* Approving the pull request
-* Merging the changes
-
-## Future Contributions
-
-Additional contributions should follow the same format.
-
-```text
-## Contribution #2
-
-Issue:
-#<issue-number>
-
-Task:
-<task-description>
-
-Changes:
-<changes>
-
-Tests:
-<test-results>
-
-Pull Request:
-#<PR-number>
-
-Status:
-<status>
-```
+- Created GitHub respository.
+- Connected the local respository to GitHub.
+- Pushed the project to GitHub.
